@@ -4,8 +4,8 @@ public class Operadores {
      * @param args
      */
     public static void main(String[] args) {
-        // '=' igualdade
-        String nome = "GLEYSON";
+        /* Operador de atribuição -> '=' igualdade  */
+        String nome = "Gabrielle";
         int idade = 22;
         double peso = 68.5;
         char sexo = 'M';
@@ -19,6 +19,7 @@ public class Operadores {
         //double resultado = (10 * 7) + (20/4);
         //concatenação
         String nomeCompleto = "LINGUAGEM" + "JAVA";
+        System.out.println(nomeCompleto);
 		
         //qual o resultado das expressoes abaixo?
         String concatenacao ="?"; 
