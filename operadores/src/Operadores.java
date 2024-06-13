@@ -4,8 +4,8 @@ public class Operadores {
      * @param args
      */
     public static void main(String[] args) {
-        /* Operador de atribuição -> '=' igualdade  */
-        String nome = "Gabrielle";
+        // '=' igualdade
+        String nome = "GLEYSON";
         int idade = 22;
         double peso = 68.5;
         char sexo = 'M';
@@ -19,20 +19,24 @@ public class Operadores {
         //double resultado = (10 * 7) + (20/4);
         //concatenação
         String nomeCompleto = "LINGUAGEM" + "JAVA";
-        System.out.println(nomeCompleto);
 		
         //qual o resultado das expressoes abaixo?
         String concatenacao ="?"; 
 
         concatenacao = 1+1+1+"1";
+        System.out.println(concatenacao);
 
         concatenacao = 1+"1"+1+1;
+        System.out.println(concatenacao);
 
         concatenacao = 1+"1"+1+"1";
+        System.out.println(concatenacao);
 
         concatenacao = "1"+1+1+1;
+        System.out.println(concatenacao);
 
         concatenacao = "1"+(1+1+1);
+        System.out.println(concatenacao);
         //Unarios
         int numero = 5;
                 
@@ -71,6 +75,7 @@ public class Operadores {
         String resultado = (a==b) ? "verdadeiro" : "false";
 
         System.out.println(resultado);
+        
     
     }
 }
