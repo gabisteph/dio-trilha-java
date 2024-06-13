@@ -24,14 +24,19 @@ public class Operadores {
         String concatenacao ="?"; 
 
         concatenacao = 1+1+1+"1";
+        System.out.println(concatenacao);
 
         concatenacao = 1+"1"+1+1;
+        System.out.println(concatenacao);
 
         concatenacao = 1+"1"+1+"1";
+        System.out.println(concatenacao);
 
         concatenacao = "1"+1+1+1;
+        System.out.println(concatenacao);
 
         concatenacao = "1"+(1+1+1);
+        System.out.println(concatenacao);
         //Unarios
         int numero = 5;
                 
@@ -70,6 +75,7 @@ public class Operadores {
         String resultado = (a==b) ? "verdadeiro" : "false";
 
         System.out.println(resultado);
+        
     
     }
 }
