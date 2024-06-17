@@ -1,0 +1,11 @@
+linguagem java possui 52 palavras reservadas.
+
+todas as palavras são em minuscula.
+
+1. Controle de pacotes: import, package
+2. Modificadores de acesso: public, private, protected
+3. Tipos primitivos: void, short, long, int, double, float, charm byte, boolean
+4. Modificadores de classe: class, extends, abstract, final, implements(implementando interface), interface, native, new, static, strictfp, synchronized, transient, volatile
+5. Controle de fluxo dentro de um bloco de código: break, case, continue...
+
+https://glysns.gitbook.io/java-basico/sintaxe/palavras-reservadas
