@@ -1,0 +1,50 @@
+https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+
+
+https://glysns.gitbook.io/java-basico/sintaxe/documentacao
+
+
+O que são tags: @autor, @version, @since ...
+exemplo:
+
+/**
+* <h1>Calculadora</h1>
+* A Calculadora realiza operações matemáticas entre números inteiros
+* <p>
+* <b>Note:</b> Leia atentamente a documentação desta classes
+* para desfrutar dos recursos oferecidos pelo autor
+*
+* @author  Gleyson Sampaio
+* @version 1.0
+* @since   01/01/2022
+*/
+public class Calculadora {
+    /**
+   * Este método é utilizado para somar dois números inteiros
+   * @param numeroUm este é o primeiro parâmetro do método
+   * @param numeroDois este é o segundo parâmetro do método
+   * @return int o resultado deste método é a soma dos dois números.
+   */
+    public int somar(int numeroUm, int numeroDois) {
+        return  numeroUm + numeroDois;
+    }
+}
+one line: // Olá, eu sou um comentário em uma única linha
+mult line:
+/* Olá,
+ * Eu sou um comentario
+ * que posso ser mais detalhadod
+ * quando necessário
+ */
+documentation:
+/** 
+ * Estas duas estrelinhas acima
+ * é para identificar que você
+ * pretende elaborar um comentário
+ * a nível de documentação.
+ * Que incrível !!!
+ */
+
+ criar java-doc usando esse comando: // No terminal execute o comando abaixo
+
+javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
